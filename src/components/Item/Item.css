@@ -1,7 +1,10 @@
 .item{
-    padding: 20px;
+    padding: 25px 20px 0px 20px;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 10px;
 }
 .item-image{
     border: 1px solid #ddd;

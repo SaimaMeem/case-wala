@@ -1,5 +1,4 @@
 .App {
-  text-align: center;
   margin: 20px 30px 50px 30px;
   font-family: 'Poppins',sans-serif;
   position: relative;
@@ -7,6 +6,7 @@
 .website-name{
   font-weight: bold;
   position: relative;
+  text-align: center;
 }
 .App-header {
   background-color: #282c34;
