@@ -1,0 +1,99 @@
+[
+  {
+    "id": "623e643cc24ce5ffe0319d5a",
+    "name": "Oneplus 9",
+    "price": 757,
+    "image": "https://i.ibb.co/vQrwgcY/1.jpg",
+    "stock": 6,
+    "quantity": 0
+  },
+  {
+    "id": "623e643ceafae861daf08e1e",
+    "name": "iPhone 13 Pro",
+    "price": 583,
+    "image": "https://i.ibb.co/cDFWp1c/2.jpg",
+    "stock": 15,
+    "quantity": 0
+  },
+  {
+    "id": "623e643cd3a09b72486a04fe",
+    "name": "iPhone 13 Ultra",
+    "price": 778,
+    "image": "https://i.ibb.co/T4KqZ1m/3.jpg",
+    "stock": 10,
+    "quantity": 0
+  },
+  {
+    "id": "623e643c1e88abbc8e53da0f",
+    "name": "Smsung S20 Ultra",
+    "price": 792,
+    "image": "https://i.ibb.co/7V7qNtj/4.jpg",
+    "stock": 20,
+    "quantity": 0
+  },
+  {
+    "id": "623e643cf433c055b051224e",
+    "name": "iPhone 12 Mini",
+    "price": 533,
+    "image": "https://i.ibb.co/7pFDvt4/13.jpg",
+    "stock": 13,
+    "quantity": 0
+  },
+  {
+    "id": "623e643cfe7111dd309eca8a",
+    "name": "Oneplus 8T",
+    "price": 886,
+    "image": "https://i.ibb.co/5KJgFnQ/6.jpg",
+    "stock": 11,
+    "quantity": 0
+  },
+  {
+    "id": "623e643c4ec99d263f542fe3",
+    "name": "Huawei Nova 9",
+    "price": 651,
+    "image": "https://i.ibb.co/F4GMc4q/7.jpg",
+    "stock": 19,
+    "quantity": 0
+  },
+  {
+    "id": "623e643cc5f1462f7487e697",
+    "name": "Samsung S21 FE",
+    "price": 407,
+    "image": "https://i.ibb.co/sQD7Nc8/8.jpg",
+    "stock": 18,
+    "quantity": 0
+  },
+  {
+    "id": "623e643c0eed646a73bfa0a3",
+    "name": "Oppo A53",
+    "price": 810,
+    "image": "https://i.ibb.co/kDtf4dW/9.jpg",
+    "stock": 6,
+    "quantity": 0
+  },
+  {
+    "id": "623e643c453aa92170f982b6",
+    "name": "Oppo A12",
+    "price": 864,
+    "image": "https://i.ibb.co/tXydmJf/10.jpg",
+    "stock": 15,
+    "quantity": 0
+  },
+  {
+    "id": "623e643c2375508f9901cdc9",
+    "name": "iphone 12 Max",
+    "price": 630,
+    "image": "https://i.ibb.co/b6D6Yfh/14.jpg",
+    "stock": 10,
+    "quantity": 0
+  },
+  {
+    "id": "623e643cdcd48885b7345f59",
+    "name": "Huawei P30 Pro",
+    "price": 697,
+    "image": "https://i.ibb.co/MG6h72q/12.jpg",
+    "stock": 12,
+    "quantity": 0
+  }
+]
+

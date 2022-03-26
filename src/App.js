@@ -1,9 +1,21 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-
+import Products from './components/Products/Products';
+import Lists from './components/Lists/Lists';
 function App() {
+  // const [check, setCheck] =useState([]);
+  // useEffect(()=>{
+  //   fetch('cases.json')
+  //   .then(res=>res.json())
+  //   .then(data=>setCheck(data))
+  // },[]);
   return (
     <div className="App">
-      <h2>Case Wala</h2>
+      <h1 className='website-name'>Case Wala</h1>
+     <section className='main'>
+     <Products></Products>
+      <Lists></Lists>
+     </section>
     </div>
   );
 }
