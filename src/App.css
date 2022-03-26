@@ -1,16 +1,12 @@
 .App {
   text-align: center;
-  margin: 20px 30px;
+  margin: 20px 30px 50px 30px;
   font-family: 'Poppins',sans-serif;
+  position: relative;
 }
 .website-name{
   font-weight: bold;
-}
-.main{
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-  grid-gap: 20px;
-
+  position: relative;
 }
 .App-header {
   background-color: #282c34;
@@ -21,4 +17,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .main{
+    grid-template-columns: 1fr;  
+  }
+  
 }

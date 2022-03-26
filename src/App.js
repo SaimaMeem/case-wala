@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Products from './components/Products/Products';
-import Lists from './components/Lists/Lists';
+// import Lists from './components/Lists/Lists';
 function App() {
   // const [check, setCheck] =useState([]);
   // useEffect(()=>{
@@ -12,10 +12,7 @@ function App() {
   return (
     <div className="App">
       <h1 className='website-name'>Case Wala</h1>
-     <section className='main'>
      <Products></Products>
-      <Lists></Lists>
-     </section>
     </div>
   );
 }

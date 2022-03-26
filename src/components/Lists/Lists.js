@@ -1,14 +1,34 @@
 import React from 'react';
+import Item from '../Item/Item';
 import './Lists.css'
-const Lists = () => {
+import { Button } from 'react-bootstrap';
+const Lists = ({list}) => {
+    // console.log(list);
+    // const {id} = list;
+    const selectOne = ()=>{
+        // console.log(list);
+        let names = [];
+       list.map(l=> names.push(l.name));
+       console.log(names);
+       const  choosenOneId = Math.floor(Math.random() * 4);
+       const choosenCase = names[choosenOneId];
+    }
     return (
-        <div>
-           
-            <h5>Confused about which case to
-            <span className='color'> Buy?</span> <br></br>
-            Choose any <span className='color'> Four</span> cases that you love and We will help you to select one! </h5>
-            <h1>Selected List</h1>
+       <>
+            <div className='lists shadow'>
+        {
+            list.map(item=> <Item key={item.id} item={item}></Item>)
+        }
         </div>
+        <div className="button-group">
+                <Button  className='add-btn btn-lg' onClick={()=>{selectOne()}}> Choose One</Button>
+                <Button  className='add-btn btn-lg'> Choose Again</Button>
+        </div>
+        <div className='choosen-One'>
+
+        </div>
+       </div>
+
     );
 };
 

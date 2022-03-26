@@ -1,4 +1,5 @@
-.color{
-    color: #5147b0;
-    font-weight: 600;
+.lists{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 20px 0;
 }
