@@ -7,26 +7,29 @@ import '../Case/Case.css';
 
 const Products = () => {
     const [products, setProducts] = useState([]);
-    const [list, setList] = useState([]);
-    const addToList = (item) => {
-       const duplicate = list.find(l=> l.id === item.id);
-    //    console.log(duplicate);
-       let newList =[];
-       if(!duplicate){
-           newList = [...list, item];
-       }
-       else{
-        newList = [...list];
-       }
-        if (newList.length <= 4) {
-            setList(newList);
-        }
-    }
     useEffect(() => {
         fetch('cases.json')
-            .then(res => res.json())
-            .then(data => setProducts(data))
+        .then(res => res.json())
+        .then(data => setProducts(data))
     }, []);
+    
+    
+    const [list, setList] = useState([]);
+    const addToList = (item) => {
+        document.getElementById('selected-list-details').display = 'block';
+        const duplicate = list.find(l=> l.id === item.id);
+        let newList =[];
+        if(!duplicate){
+            newList = [...list, item];
+        }
+        else{
+         newList = [...list];
+        }
+         if (newList.length <= 4) {
+             setList(newList);
+         }
+         return <div id="selected-list-details" style={{display: 'block'}}></div>
+     }
     return (
         <div className='main'>
             <div className='products'>

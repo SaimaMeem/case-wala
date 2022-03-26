@@ -1,5 +1,24 @@
 .lists{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     border-radius: 5px;
     margin: 20px 0;
 }
+#selected-list-details{
+    display: none;
+}
+.choosen-one{
+    /* border: 2px solid black; */
+    margin: 50px 0;
+    animation: zoom-in-zoom-out 1s ease infinite;
+}
+@keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(0.8);
+    }
+    50% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0.8);
+    }
+  }
