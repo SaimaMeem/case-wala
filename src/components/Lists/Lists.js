@@ -14,8 +14,10 @@ const Lists = ({ list }) => {
     }
     const chooseAgain = () => {
         setCC('');
+        // setList([]);
         list = [];
         document.getElementById('list').innerHTML = '';
+        console.log(list);
     }
     return (
         <div id='selected-list-details'>

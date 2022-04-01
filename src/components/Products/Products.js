@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 // import { Button } from 'react-bootstrap';
 import Case from '../Case/Case';
-import List from "../Lists/Lists";
+import Lists from "../Lists/Lists";
 import JSQues from "../JSQues/JSQues";
 import './Products.css';
 import '../Case/Case.css';
@@ -18,6 +18,7 @@ const Products = () => {
 
     const [list, setList] = useState([]);
     const addToList = (item) => {
+        console.log(list);
         document.getElementById('selected-list-details').display = 'block';
         const duplicate = list.find(l => l.id === item.id);
         let newList = [];
@@ -45,7 +46,7 @@ const Products = () => {
                     <span className='color'> Buy?</span> <br></br>
                     Choose any <span className='color'> Four</span> cases that you love and We will help you to select one! </p>
                 <h3 className="text-center">Selected List</h3>
-                <List list={list}></List>
+                <Lists list={list}></Lists>
             </div>
         </div>
         <JSQues></JSQues>
